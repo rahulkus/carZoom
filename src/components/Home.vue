@@ -88,11 +88,13 @@
           </section>
       </div>
       <div class="col-sm-8">
+        <div>
         <swipe class="my-swipe">
             <swipe-item class="slide1">slide1</swipe-item>
             <swipe-item class="slide2">slide1</swipe-item>
             <swipe-item class="slide3">slide1</swipe-item>
           </swipe>
+          </div>
         <h2>This is Sample text</h2>
       </div>
     </div>
