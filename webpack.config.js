@@ -12,6 +12,7 @@ module.exports = {
     loaders: [
       // process *.vue files using vue-loader
       { test: /\.vue$/, loader: 'vue' },
+	  {test: /(\.css$)/, loaders: ['style-loader', 'css-loader'] }, { test: /\.(png|woff|woff2|eot|ttf|svg)$/, loader: 'url-loader?limit=100000' },
       // process *.js files using babel-loader
       // the exclude pattern is important so that we don't
       // apply babel transform to all the dependencies!
